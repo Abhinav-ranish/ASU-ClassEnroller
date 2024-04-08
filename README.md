@@ -12,6 +12,8 @@ Disclaimer - Made for 100% educational purposes only
 ## Uses Chromedriver with selenium to scrape ASU class search
 ## Using rocket science it finds whether its 0 or 0++??? greater than 0
 ## Thnx its not a virus + Ratio.
-### Virus Total - https://www.virustotal.com/gui/file/ffd2b1c8540c987efc20ab74ea44b333da9cfcbe47934e1b7dec81e79579d010/detection
-### IDK WHY ITS FLAGGED PROBABLY CUS ITS PINING IPS AND DROPPING FILES <3
+### Virus Total - https://www.virustotal.com/gui/file/0250c088571fef7ba79fa06cf866d0bfd6d257942611a28e8bcfb8740767230e/detection
+### Malware.AI.2770975115 - A LOT OF THESE ARE GENERALLY AI/AUTOMATED CHECKING
+### The program talks to Twillio API and obviously ASU class search website and nothing else. 
+### Please stick to using github releases only.
 Nuh uh. &lt;3 
