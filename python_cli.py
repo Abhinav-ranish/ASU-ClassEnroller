@@ -77,8 +77,8 @@ def check_class(class_number):
     #         return True  
     #driver.quit()
     
-#Example Case
-    #class_number = '60459'  # Replace '12345' with the actual class number
+# Example Case
+    #class_number = '60459'  
     # class_status = check_class(class_number)
     # if class_status is not None:
     #     print(f"Class {class_number} is {'open' if class_status else 'closed'}.")
