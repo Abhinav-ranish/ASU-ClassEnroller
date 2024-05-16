@@ -4,7 +4,7 @@ Disclaimer - Made for 100% educational purposes only
 
 #### I won't be updating the Chrome driver.. Make sure ur Chrome browser and the Chrome driver are on the same version.. its currently on the latest. (31/3/2024)
 
-### <<< Please dont copy without Credits >>> insta - @abhinav.ranish  or  github -  abhinav-ranish
+### Feel free to fork @tag 
 
 ## Youtube Video -
 [![Alt text](https://img.youtube.com/vi/Rb7f3m1Acos/0.jpg)](https://youtu.be/Rb7f3m1Acos)
