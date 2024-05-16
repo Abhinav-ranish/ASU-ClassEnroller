@@ -1,4 +1,4 @@
-# ASU-Class-search-scraper
+# Class Enroller
 
 Old files/ Class scraper has multiple class functionality but i havent fixed the auto enroller for that.
 
