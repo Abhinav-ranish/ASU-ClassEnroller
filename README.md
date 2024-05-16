@@ -10,5 +10,5 @@ IF you use mac change chromedrive.exe to the correct exec ** Download from chrom
 
 ### Feel free to fork @tag 
 
-## Youtube Video -
+## Youtube Video - Outdated (Only has scraper)
 [![Alt text](https://img.youtube.com/vi/Rb7f3m1Acos/0.jpg)](https://youtu.be/Rb7f3m1Acos)
