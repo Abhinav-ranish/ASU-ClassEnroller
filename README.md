@@ -4,7 +4,6 @@ Old files/ Class scraper has multiple class functionality but i havent fixed the
 
 THIS one is barebones ull have to edit the python file to add ur api keys and asu username and passwd
 
-Disclaimer - Made for 100% educational purposes only 
 
 #### I won't be updating the Chrome driver.. Make sure ur Chrome browser and the Chrome driver are on the same version.. its currently on the latest. (31/3/2024)
 
