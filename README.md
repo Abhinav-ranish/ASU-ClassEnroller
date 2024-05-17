@@ -1,6 +1,6 @@
 # Class Enroller
 
-#### Get your chromedriver based on your operating system. <a>href="https://googlechromelabs.github.io/chrome-for-testing/" Here </a>
+#### Get your chromedriver based on your operating system. [Here](https://googlechromelabs.github.io/chrome-for-testing) </a>
 
 
 <h1 align="center">
