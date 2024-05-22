@@ -99,10 +99,12 @@ def main():
 
        # num_classes = int(input("Enter the number of classes to monitor: ")) # only making 1 class for now
         num_classes = int(1)
-
-        waittime = int(1200)
-        wait_time_minutes = waittime
-        waittime = int(wait_time_minutes) * 60
+        
+        if wait_time == 0:
+            waittime = int(1200)
+        else:
+            wait_time_minutes = wait_time
+            waittime = int(wait_time_minutes) * 60
         
             
         for _ in range(num_classes - len(class_numbers)):
