@@ -8,9 +8,9 @@
 # ===========================================================
 
 import time
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
+from selenium import webdriver # type: ignore
+from selenium.webdriver.chrome.service import Service # type: ignore
+from selenium.webdriver.chrome.options import Options # type: ignore
 import sys
 import os
 from scraper_api import check_class

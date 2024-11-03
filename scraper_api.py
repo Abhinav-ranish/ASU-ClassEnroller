@@ -8,9 +8,9 @@
 # ===========================================================
 
 import time
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException
+from selenium import webdriver # type: ignore
+from selenium.webdriver.common.by import By # type: ignore
+from selenium.common.exceptions import NoSuchElementException # type: ignore
 
 def check_class(driver, class_number):
     try:

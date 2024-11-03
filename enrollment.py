@@ -8,11 +8,11 @@
 # ===========================================================
 
 
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
+from selenium import webdriver # type: ignore
+from selenium.webdriver.common.by import By # type: ignore
+from selenium.common.exceptions import NoSuchElementException # type: ignore
+from selenium.webdriver.chrome.service import Service # type: ignore
+from selenium.webdriver.chrome.options import Options # type: ignore
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
