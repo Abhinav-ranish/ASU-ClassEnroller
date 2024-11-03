@@ -59,7 +59,7 @@ def main():
                 class_info[class_number] = True
                 at_least_one_class_opened = True
                 send_email(class_number, 1, email, password, recipient)
-                login(driver, class_number, semesternumber, account_sid, auth_token, duopushid, email, password, recipient)
+                #login(driver, class_number, semesternumber, account_sid, auth_token, duopushid, email, password, recipient)
             else:
                 print(f"Waiting for class {class_number} to open...")
 
