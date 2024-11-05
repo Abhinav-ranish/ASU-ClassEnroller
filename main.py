@@ -6,7 +6,7 @@
 # GitHub: https://github.com/abhinav
 # Description: This script automates the process of enrolling in classes at ASU by monitoring class availability and sending notifications when a class opens up.
 # ===========================================================
-
+# pyinstaller --onefile --icon="my_icon.ico" my_script.py
 import time
 from selenium import webdriver # type: ignore
 from selenium.webdriver.chrome.service import Service # type: ignore
