@@ -49,29 +49,36 @@ $ git clone https://github.com/Abhinav-ranish/ASU-ClassEnroller
 # Go into the repository
 $ cd ASU-ClassEnroller
 
+## In Mac OS & Unix
+
+# Set up a virtual environment
+$ python3 -m venv env
+
+$ source env/bin/activate
+
+## In Windows
+
 # Set up a virtual environment
 $ python -m venv env
 
+$ env/Scripts/activate.bat
+
 # Install dependencies
-$ pip install selenium twilio
+$ pip install selenium requests
 
-# Add your Twilio Config (Only if you want Call notification aswell)
-$ vim scraper.py 
-
-# Add your ASU authentication details 
-$ vim autoopenner.py
+# Add your Configs ( Use your preffered text editor )
+$ vim main.py 
 
 # Run the app
-$ python scraper.py
+$ python main.py
 ```
 
 > **Note**
-> You will require a new Duo OTP every time you re-run.  &nbsp;&middot;&nbsp;
-> All your credentials should be entered in autoopener.py  &nbsp;&middot;&nbsp;
+> Do not interact with the browser. It can cause to program to fail.
+> All your credentials should be entered in main.py  &nbsp;&middot;&nbsp;
 
 
-
-## For Enquiries @ aranish@asu.edu 
+## For Enquiries @ presidentofjoy@asu.edu 
 
 ## Download
 
@@ -97,7 +104,6 @@ This software uses the following open-source packages:
 ## License
 
 MIT
-Old files/ Class scraper has multiple class functionality but i haven't fixed the auto enroller for that.
 
 ---
 

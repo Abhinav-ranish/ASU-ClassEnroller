@@ -28,14 +28,16 @@ account_sid = '' # ASURITE
 auth_token = '' # ASU PASSWORD
 # SMTP SETUP
 email = '@gmail.com' # Personal EMAIL
-password = 'supersecretapppassword' # APP PASSWORD (google account settigns-> App Password)
+password = '' # APP PASSWORD (google account settigns-> App Password)
 recipient = 'presidentofjoy@asu.edu'
 
 # Initialize Chrome driver
 chrome_options = Options()
 chrome_options.add_argument("--disable-site-isolation-trials")
 service = Service(chromedriverpath)
+chrome_options.add_argument("--window-size=1920,1080")
 driver = webdriver.Chrome(service=service, options=chrome_options)
+# Start in 1080p resolution
 
 def main():
     previous_class_numbers = load_class_numbers_from_json() if '-y' in sys.argv else []
